@@ -67,7 +67,7 @@ packages:
       worker:
         function: actions/worker/index.js
         web: 'yes'
-        runtime: 'nodejs:12'
+        runtime: 'nodejs:14'
         inputs:
           apiKey: $SERVICE_API_KEY
         limits:
